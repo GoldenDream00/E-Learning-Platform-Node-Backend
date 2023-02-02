@@ -1,0 +1,19 @@
+### batch scheduling endpoint
+
+POST http://localhost:9000/v1/schedule
+Content-Type: application/json
+
+{
+    "dtsStartTime": "2022-10-31T19:00:00.000Z",
+    "dtsToTime": "2022-10-31T20:00:00.000Z",
+    "hashWebinar": "",
+    "isDST" : true,
+    "isFree": false,
+    "startTime": "2022-10-31T17:30:00.000Z",
+    "toTime": "2022-10-31T18:30:00.000Z",
+    "type": "subject",
+    "webinarId": "",
+    "tutorId": "629f762762fe991be082c781",
+    "role": "user"
+    
+}
